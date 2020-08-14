@@ -1,0 +1,69 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101 !important;
+	text-transform: capitalize;
+	padding: 0 43px !important;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;	
+}
+/*header end*/
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding: 30px 0 100px 0;
+}
+.indicators-custom{
+	bottom: -80px;
+}
+.indicators-custom li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.slider-content{
+	margin-top: 60px;
+}
+.slider-content h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0;
+}
+.slider-content h2{
+	font-weight: 400;
+	font-size: 20px;
+	color: #313841;
+	margin: 20px 0;
+}
+.slider-content p{
+	color: #555555;
+	margin: 0 0 30px 0;
+}
+.slider-icon{}
+.slider-icon li i{
+	font-size: 42px;
+	margin-right: 20px;
+	transition: .5s;
+}
+.slider-icon li i:hover{
+	color: #fff;
+	transform: rotate(360deg);
+}
+.slider-img{}
+/*slider end*/

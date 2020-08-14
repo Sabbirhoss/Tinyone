@@ -1,0 +1,87 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu ul li a{
+	font-size: 20px;
+	text-align: right;
+	padding: 0 0 !important;
+}
+.toggler-custom{
+	font-size: 1rem;
+}
+.logo{
+	width: 135px;
+	height: auto;
+}
+/*header end*/
+/*slider start*/
+.slider {
+    padding: 20px 0 70px 0;
+}
+.slider-content {
+    margin-top: 0;
+    margin-left: 20px;
+}
+.slider-content h1{
+	font-size: 26px;
+}
+.slider-content h2{
+	font-size: 18px;
+	margin: 10px 0;
+}
+.slider-content p{
+	margin: 0 0 20px 0;
+}
+.slider-icon li i{
+	font-size: 32px;
+	margin-right: 15px;
+}
+/*slider end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+}
+/*header end*/
+/*slider stsrt*/
+.slider-content {
+    margin-top: 30px;
+}
+/*slider end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+}
+/*header end*/
+/*slider start*/
+.slider-content {
+    margin-top: 40px;
+}
+/*slider end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*slider start*/
+.s_img_custom{
+    margin-left: 9.666667%;
+}
+/*slider end*/
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
